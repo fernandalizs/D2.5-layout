@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lora", serif;
 }
@@ -6,12 +10,13 @@ body {
   background-image: url(../img/background-foods-v4.png);
   background-color: #2e2d4c;
   background-attachment: fixed;
+  padding: 2px;
 }
 
 .cabecalho {
   text-align: center;
   color: #ffffff;
-  margin: auto;
+  margin: 100px auto;
   padding: 30px;
 }
 
@@ -21,11 +26,16 @@ body {
 
 .conteudo {
   width: 72%;
-  background-color: white;
-  margin: 8% auto;
-  padding: 5%;
-  border-radius: 10px;
   line-height: 3rem;
+  margin: auto;
+  max-width: 940px;
+  color: #4d3c64;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  margin-bottom: 220px;
+  padding: 60px;
+  box-shadow: -10px 8px 30px #312f2f;
+  z-index: 2;
 }
 
 .navigation li {
@@ -116,4 +126,29 @@ body {
   background-color: #1b1a2f;
   color: #ffffff;
   text-align: center;
+  font-size: 25px;
+}
+
+.footer i {
+  letter-spacing: 15px;
+}
+
+.logotipo {
+  color: #2e2d4c;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 1;
+  font-size: 1.8rem;
+  padding-top: 10px;
+}
+
+.logomarca.fundo {
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 50%;
+  transform: translateX(50%) rotate(45deg);
+  margin-top: -50px;
 }
