@@ -90,3 +90,30 @@ body {
 .fotos img:hover {
   filter: none;
 }
+
+.btn-inicio {
+  font-size: 3rem;
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.3;
+}
+
+.btn-inicio:hover {
+  opacity: 1;
+}
+
+.footer {
+  position: relative;
+  padding: 120px;
+  background-color: #1b1a2f;
+  color: #ffffff;
+  text-align: center;
+}
